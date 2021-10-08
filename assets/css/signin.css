@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: -webkit-linear-gradient(to right, hsla(180, 14%, 89%, 0.26), hsla(240, 4%, 95%, 0.404), hsla(0, 0%, 97%, 0.349)), url(../images/loguin_1.jpg);
+    background: linear-gradient(to right, hsla(180, 21%, 6%, 0.26), hsla(240, 11%, 9%, 0.404), hsla(248, 17%, 72%, 0.349)), url(../images/loguin_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+}
+.mb-4{
+  width: 150px; height: 150px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
